@@ -24,6 +24,12 @@ jobs:
       - name: Run unit tests
         run: go test ./... -cover
 
+      - name: Install gosec
+        run: go install github.com/securego/gosec/v2/cmd/gosec@latest
+
+      - mame: Run security check
+        run: gosec ./..
+
   style_checks:
     name: Style
     runs-on: ubuntu-latest
