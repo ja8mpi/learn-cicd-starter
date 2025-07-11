@@ -24,8 +24,8 @@ jobs:
       - name: Run unit tests
         run: go test ./... -cover
 
-  Style:
-    name: Style Checks
+  style_checks:
+    name: Style
     runs-on: ubuntu-latest
 
     steps:
