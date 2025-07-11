@@ -1,4 +1,4 @@
-[![ci](https://github.com/ja8mpi/learn-cicd-starter/actions/workflows/ci.yml/badge.svg?branch=addtests&event=pull_request)](https://github.com/ja8mpi/learn-cicd-starter/actions/workflows/ci.yml)
+[![ci](https://github.com/ja8mpi/learn-cicd-starter/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ja8mpi/learn-cicd-starter/actions/workflows/ci.yml)
 
 # learn-cicd-starter (Notely)
 
