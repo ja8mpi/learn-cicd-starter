@@ -26,8 +26,8 @@ jobs:
         run: go install github.com/pressly/goose/v3/cmd/goose@latest
 
       - name: DB Migration
+        run: ./scripts/migrateup.sh
         env:
-          run: ./scripts/migrateup.sh
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
       - name: Authenticate to Google Cloud with key
